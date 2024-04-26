@@ -1,0 +1,220 @@
+body {
+    font-family: Vazirmatn;
+    direction: rtl;
+}
+
+nav {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+nav div {
+    padding: 10px 15px;
+    margin: 15px;
+}
+
+section div {
+    padding: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    background-color: rgb(78, 0, 121);
+    border-bottom: 8px solid red;
+}
+
+
+
+
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+}
+
+.right {
+
+    margin-top: 30px;
+    background-color: rgba(113, 38, 183, 0);
+}
+
+.button {
+    margin-top: 40px;
+    background-color: white;
+
+}
+
+button {
+    width: 170px;
+    height: 150px;
+    margin: 3px;
+    background-color: rgb(228, 228, 228);
+    border: none;
+    border-radius: 3%;
+
+}
+
+button a {
+    text-decoration: none;
+    padding: 50px;
+    height: 20px;
+}
+
+.di {
+    background-color: blueviolet;
+    padding: 65px 0px;
+    border-radius: 6px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    background-color: rgba(255, 235, 205, 0);
+    margin-right: 50px;
+}
+
+.left div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left div div {
+    text-align: right;
+    border-bottom: 1px solid rgb(188, 188, 188);
+    padding: 20px 60px;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+
+
+
+aside {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 30px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(247, 247, 247);
+}
+
+.اخبار {
+    color: rgb(255, 0, 0);
+    font-size: medium;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.متن {
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid rgb(202, 202, 202);
+    border-bottom: 2px solid rgb(202, 202, 202);
+}
+
+.calumn {
+    margin: 20px;
+    text-align: start;
+    margin-left: 95px;
+    border-left: 2px solid rgb(202, 202, 202);
+
+}
+
+h3 {
+    color: rgb(49, 6, 140);
+}
+
+.متن div {
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.leftghabar {
+    padding: 15px;
+    margin-top: -1px;
+}
+
+.leftghabar div {
+    margin-left: 50px;
+}
+
+.picture {
+    display: flex;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.picture img {
+    margin: 5px;
+}
+
+.picture div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.underh4,
+h4 {
+    margin-right: 20px;
+}
+
+
+
+
+.گرومالی {
+    text-align: center;
+    padding: 50px;
+    margin: 5px;
+
+}
+
+.part3 {
+    display: flex;
+    justify-content: center;
+}
+
+.part3 div {
+    margin: 20px;
+}
+
+.ستونی {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+.top {
+    text-align: right;
+    padding: 20px;
+    border-left: 2px solid rgb(216, 216, 216);
+
+}
+
+.leftchin {
+    display: flex;
+}
+
+.bordertop {
+    padding-top: 30px;
+    border-top: 2px solid rgb(213, 213, 213);
+}
+
+.button2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.button2 a {
+    background-color: rgb(94, 28, 156);
+    color: aliceblue;
+    padding: 15px;
+}
+.button2 a:hover{
+    background-color: red;
+}
